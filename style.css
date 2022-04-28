@@ -1,6 +1,10 @@
 h1{
     font-family: 'Orelega One', cursive;
 }
+.second-part h1{
+    text-align: center;
+    font-size: 40px;
+}
 p{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
@@ -38,4 +42,40 @@ p{
     padding: 10px 40px;
     border-radius: 5px;
     border: none;
+}
+.mission-area{
+    display: flex;
+}
+.mission{
+    width: 25%;
+    background-color: rgba(193, 227, 241, 0.326);
+    border-radius: 20px;
+    margin-left:120px;
+}
+.vission{
+    width: 25%;
+    background-color:rgba(240, 194, 202, 0.304);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.goals{
+    width: 25%;
+    background-color: rgba(247, 247, 186, 0.541);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.img img{
+    width: 50%;
+}
+.para{
+    padding: 0px 20px;
+}
+.para p{
+    font-size: 12px;
+}
+.second-part{
+    margin-top: 100px;
 }
